@@ -1,0 +1,12 @@
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\service\IBaseService.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\model\Categoria.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\exceptions\ResourceNotFoundException.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\RentCarApplication.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\service\Impl\CategoriaService.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\repository\ICategoriaRepository.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\repository\IBaseRepository.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\exceptions\GlobalExceptionHandler.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\DTOS\CategoriaDTO.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\service\ICategoriaService.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\controller\CategoriaController.java
+C:\Users\carla\Desktop\RentCar\src\main\java\com\rentcar\config\SpringConfig.java

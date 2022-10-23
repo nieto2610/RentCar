@@ -1,0 +1,12 @@
+com\rentcar\repository\IBaseRepository.class
+com\rentcar\model\Categoria.class
+com\rentcar\service\ICategoriaService.class
+com\rentcar\exceptions\GlobalExceptionHandler.class
+com\rentcar\exceptions\ResourceNotFoundException.class
+com\rentcar\service\Impl\CategoriaService.class
+com\rentcar\repository\ICategoriaRepository.class
+com\rentcar\DTOS\CategoriaDTO.class
+com\rentcar\RentCarApplication.class
+com\rentcar\service\IBaseService.class
+com\rentcar\config\SpringConfig.class
+com\rentcar\controller\CategoriaController.class

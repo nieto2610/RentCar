@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "e58a9505-e726-4863-9254-1cf66b87a7e3",
+		"name": "RentCar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18612825"
+	},
+	"item": [
+		{
+			"name": "GuardarCategoria",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"titulo\": \"auto\",\r\n        \"descripcion\": \"Autos familiares\",\r\n        \"urlImagen\": \"https://www.google.com/search?q=toyota+yaris\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/categoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarCategorias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/categoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarCategorias",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"titulo\": \"auto\",\r\n    \"descripcion\": \"Autos deportivos\",\r\n    \"urlImagen\": \"https://www.google.com/search?q=renault+yaris\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/categoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BuscarCategoriaPorId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/categoria/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"categoria",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BorrarCategoria",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/categoria/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"categoria",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
